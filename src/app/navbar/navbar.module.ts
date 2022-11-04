@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NavbarInicioComponent } from './navbar-inicio/navbar-inicio.component';
 import { NavbarContenidoComponent } from './navbar-contenido/navbar-contenido.component';
 import { NavbarSComponent } from './navbar-s/navbar-s.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -16,7 +17,8 @@ import { NavbarSComponent } from './navbar-s/navbar-s.component';
     NavbarSComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class NavbarModule { }
