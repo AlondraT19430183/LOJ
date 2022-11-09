@@ -10,19 +10,38 @@
             N5
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Guia</a></li>
-            <li><a class="dropdown-item" href="#">Vocabulario</a></li>
-            <li><a class="dropdown-item" href="#">Contenido Descargable</a></li>
+            <!-- guia -->
+            <li
+            routerLink="guia"
+            routerLinkActive="active"
+            ><a class="dropdown-item">Guia</a></li>
+            <!-- vocabulario -->
+            <li
+            routerLink="vocabulario"
+            routerLinkActive="active"
+            ><a class="dropdown-item">Vocabulario</a></li>
+            <!-- DLC -->
+            <li
+            routerLink="dlc"
+            routerLinkActive="active"
+            ><a class="dropdown-item">Contenido Descargable</a></li>
 
             <!-- HKK -->
-            <li><a class="dropdown-item" href="">Hiragana/Katakana/Kanjis</a></li>
+            <li
+            routerLink="hkk"
+            routerLinkActive="active"
+            ><a class="dropdown-item" href="">Hiragana/Katakana/Kanjis</a></li>
           </ul>
         </ul>
       </div>
 
       <!-- FORO -->
       <div class="col" >
-        <a class="navbar-brand fw-bold " href="#"style="color:white;">Foro </a>
+        <a class="navbar-brand fw-bold "
+        style="color:white;"
+        routerLink="foro"
+        routerLinkActive="active"
+        >Foro </a>
       </div>
       
       <!-- Practica tu japones -->
